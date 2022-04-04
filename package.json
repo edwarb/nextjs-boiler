@@ -1,0 +1,13 @@
+{
+  "name": "nextjs12-2",
+  "version": "1.0.0",
+  "description": "workspace test",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "client": "yarn workspace client dev"
+  }
+}

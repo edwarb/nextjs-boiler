@@ -1,0 +1,8 @@
+**/node_modules
+**/out
+
+# all dot folders
+**/.vscode/
+**/.next/
+**/.husky/
+**/.github/

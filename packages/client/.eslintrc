@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "next",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    // "plugin:react-hooks/recommended",
+    "prettier",
+    "airbnb-base",
+    "next/core-web-vitals"
+  ],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "quotes": [
+      2,
+      "double",
+      { "avoidEscape": true, "allowTemplateLiterals": true }
+    ],
+    "max-len": "off",
+    "object-curly-newline": "off",
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off", // Named export is easier to refactor automatically
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "arrow-body-style": "off",
+    "no-use-before-define": "off",
+    "import/order": "off"
+  }
+}
